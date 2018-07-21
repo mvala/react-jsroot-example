@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import JSROOT from 'jsroot/scripts/JSRootCore'
 
 class App extends Component {
   render() {
+    console.log(JSROOT);
     return (
       <div className="App">
         <header className="App-header">
